@@ -23,10 +23,7 @@ import { List } from './entity/List';
     }),
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: process.env.DB_HOST,
-      port: +process.env.DB_PORT,
-      username: process.env.DB_USERNAME,
-      password: process.env.DB_PASSWORD,
+      url: process.env.DB_URL,
       database: process.env.DB_NAME,
       entities: [User, Wordpack, Word, List],
       migrations: ['dist/migration/*.js'],
