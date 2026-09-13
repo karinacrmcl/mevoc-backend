@@ -16,8 +16,15 @@ import { Wordpack } from './entity/Wordpack';
 import { Word } from './entity/Word';
 import { List } from './entity/List';
 
+import { ServeStaticModule } from '@nestjs/serve-static';
+import { join } from 'path';
+
 @Module({
   imports: [
+    ServeStaticModule.forRoot({
+      rootPath: join(__dirname, '..', 'client', 'build'),
+      exclude: ['/auth*', '/users*'],
+    }),
     ConfigModule.forRoot({
       envFilePath: '.env',
     }),

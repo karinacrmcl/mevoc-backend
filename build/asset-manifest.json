@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bab8ab03.css",
+    "main.js": "/static/js/main.c1291162.js",
+    "static/js/453.d689c1b7.chunk.js": "/static/js/453.d689c1b7.chunk.js",
+    "static/media/background.svg": "/static/media/background.4c61ad9dadd53e9f8ec6.svg",
+    "static/media/form-background.svg": "/static/media/form-background.b38edb048df56df9e60d.svg",
+    "static/media/add-words.svg": "/static/media/add-words.30587a80aa5c79d0849a6bde3740bdbc.svg",
+    "static/media/create-a-list.svg": "/static/media/create-a-list.ba0023b8848a3922c2f56dd582cb0961.svg",
+    "static/media/start-learning.svg": "/static/media/start-learning.4cf9de133ad0950178c775bc55772afc.svg",
+    "static/media/track-progress.svg": "/static/media/track-progress.62536be3426bc92063d8b4053b8c4e95.svg",
+    "index.html": "/index.html",
+    "main.bab8ab03.css.map": "/static/css/main.bab8ab03.css.map",
+    "main.c1291162.js.map": "/static/js/main.c1291162.js.map",
+    "453.d689c1b7.chunk.js.map": "/static/js/453.d689c1b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bab8ab03.css",
+    "static/js/main.c1291162.js"
+  ]
+}
